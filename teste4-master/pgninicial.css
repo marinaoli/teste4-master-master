@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: content-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.backgroud{
+    background-image: url(criança-removebg-preview\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 800;
+    position: fixed;
+    transition: all.35s ease;
+    background-color: rgb(235, 203, 219);
+    padding: 1px 1%;
+}
+ .cabeçalho-link {
+    display: flex;
+    gap: 3rem;
+ }
+ .cabeçalho-link a{
+    color: rgb(0, 0, 0);
+    font-feature-settings: 700;
+    transition: 0.3s;
+ }
+ .cabeçalho-link a:hover{
+    color: rgb(255, 255, 255);
+ }
+
+ .icon span{
+    font-size: 2rem;
+    cursor: pointer;
+ }
+ .icon span:hover{
+    color: coral;
+ }
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+.Meio h1{
+    font-size: 4rem;
+}
+.Meio button{
+    background-color: rgb(127, 204, 200);
+    padding: 1rem 3rem 1rem;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.Meio button:hover{
+    background-color: black;
+    transform: scaleY(1.2);
+}
+.section{
+    padding-top: 7rem;
+}
+
+    section h1{ 
+        align-items: center;
+        text-align: center;
+        font-size: 5rem;
+
+    }
+    .container-card-1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+        .cards img{
+            width: 250px;
+            height: auto;
+            transition: 0.35s ease;
+
+        }
+        .cards img:hover{
+            transform:scale(0.9)translateY(5px) ;
+        }
